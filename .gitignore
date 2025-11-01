@@ -482,3 +482,10 @@ $RECYCLE.BIN/
 
 # Vim temporary swap files
 *.swp
+
+# Mengabaikan file database lokal (SANGAT PENTING untuk proyek kita)
+*.db
+*.mdf
+*.ldf
+*.sqlite
+*.sqlite-journal
